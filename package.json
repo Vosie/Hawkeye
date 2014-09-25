@@ -1,0 +1,25 @@
+{
+  "name": "hawkeye",
+  "author": {
+    "name": "Vosie",
+    "email": "hchu@vosie.org"
+  },
+  "description": "A meta tts tool to linked with multiple tts engine",
+  "version": "0.1.0",
+  "keywords": [
+    "tts"
+  ],
+  "license" : "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vosie/Hawkeye.git"
+  },
+  "main": "./libs/hawkeye.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "xmlhttprequest": ">= 1.5.0",
+    "execSync": ">= 0.0.3"
+  }
+}
